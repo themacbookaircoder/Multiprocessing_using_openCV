@@ -1,6 +1,7 @@
 # Multiprocessing_using_openCV
 Under the hood, Python’s multiprocessing package spins up a new python process for each core of the processor. Each python process is independent and separate from the others (i.e., there are no shared variables, memory, etc.). 
 the dataset can be downloaded using the following command.
+
 !wget https://pis-datasets.s3.us-east-2.amazonaws.com/101_ObjectCategories.tar.gz
 !tar xvf 101_ObjectCategories.tar.gz
 
